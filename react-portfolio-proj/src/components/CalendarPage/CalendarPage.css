@@ -1,0 +1,29 @@
+.calendar-page{
+    display: grid;
+    grid-template-areas: 
+    "update update"
+    "calendar assesment";
+    height: 85%;
+    grid-template-rows: 120px 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.calendar-update{
+    grid-area: update;
+    background-color: transparent;
+}
+
+.calendar-calendar{
+    grid-area: calendar;
+    background-color: #fff;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.calendar-assesment{
+    grid-area: assesment;
+    background-color: #fff;
+    margin-right: 30px;
+    border-radius: 20px;
+}

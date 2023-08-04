@@ -1,0 +1,43 @@
+.hdr {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100%;
+}
+
+.hdr img{
+    height: auto;
+    width: 170px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 50px;
+}
+
+
+
+.icon-container{
+    position: relative;
+    display: inline-block;
+    text-align: right;
+  }
+
+.icon-text{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: transparent; 
+    padding: 0px 10px;
+    color: aliceblue;
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+    border: solid 2px #fff;
+    border-radius: 50px;
+    
+}
+
+.icon-icon{
+    position: relative;
+    z-index: 0;
+    font-size: 24px;
+    justify-content: right;
+}
+
